@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// MOBILE FIRST
+body {
+  font-family: Lato, sans-serif;
+  background: #181f15;
+  main {
+    width: 100vw;
+    height: 100vh;
+    color: #c1c1c1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    header {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      img {
+        width: 250px;
+      }
+      h1 {
+        color: #a9cc6d;
+      }
+    }
+    section {
+      width: 100%;
+      padding: 50px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #9c9b9b;
+      border-top: 5px solid #a9cc6d;
+      border-bottom: 5px solid #a9cc6d;
+      h2 {
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+      a {
+        margin-bottom: 15px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 50px;
+        width: 320px;
+        text-decoration: none;
+        background: #a9cc6d;
+        border-radius: 3px;
+        strong {
+          margin-right: 5px;
+        }
+        img,
+        svg {
+          width: auto;
+          height: 30px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  // Inicio de alterações desk
+  @media screen and (min-width: 1366px) {
+  }
+
+  // Inicio de alterações FullHd
+  @media screen and (min-width: 1900px) {
+  }
+}
